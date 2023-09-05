@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.avatar_Pic{
+    width: 40px;
+    border-radius: 100%;
+}
+.brand-main-pic img{
+    width: 400px;
+}
+.brand-pic img{
+    width: 100px;
+}
+@media(max-width:480px){
+    .brand-main-pic img{
+        width: 200px;
+
+    }
+.brand-pic{
+    display: flex;
+    overflow: scroll;
+    
+}
+}
+.brand-pic img:hover{
+    transform: rotate(180deg);
+    transition: 2s;
+}
+ .rounded-5 btn w-50:hover{
+
+    transform: scale(1);
+
+}  
